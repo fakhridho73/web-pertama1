@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pertama</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/icon/partner.png" alt="logo" class="logo-img" />
+            <h1 class="logo-title">DHO X</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a href="mailto:fakhridhooo@gmail.com">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Fakhridho Gunawan Here!</p>
+            <p class="description">Technology Influencer From Village.</p>
+            <img src="assets/foto/111.jpg" alt="Fakhridho 1" class="img-foto"> 
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">Saya Adalah Programmer</p>
+            <p class="description">Ngoding Is My Life</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+            </div>
+        </div>
+        <div class="container">
+                <div class="card" id="jasa">
+                    <div class="card-item">
+                        <img src="assets/icon/24-hours.png" alt="icon 1" class="icon"/>
+                        <p class="card-title">Playanan Nonstop</p>
+                        <p class="card-description">Service 24 jam nonstop ketika anda membutuhkan bantuan.</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icon/hot-deal.png" alt="icon 2" class="icon"/>
+                        <p class="card-title">Jasa Paling Murah</p>
+                        <p class="card-description">Biaya jasa yang saya berikan pasti murah.</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icon/rating.png" alt="icon 3" class="icon"/>
+                        <p class="card-title">784 Review</p>
+                        <p class="card-description">Mereka merasa senang dalam bekerjasama dengan saya.</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Fakhridho Gunawan Website 2022</p>
+    </footer>
+
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://instagram.com/fakhridhognwn"
+        }
+
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/081263636363"
+        }
+    </script>
+</body>
+</html>
